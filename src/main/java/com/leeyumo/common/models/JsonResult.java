@@ -1,7 +1,7 @@
 package com.leeyumo.common.models;
 
-import com.leeyumo.learningSpring.domian.standard.BaseCodeMsg;
-import com.leeyumo.learningSpring.domian.standard.BaseEnum;
+import com.leeyumo.common.constants.BaseCodeMsg;
+import com.leeyumo.common.constants.BaseEnum;
 import lombok.AccessLevel;
 import lombok.Data;
 import lombok.Setter;
