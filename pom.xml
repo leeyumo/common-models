@@ -26,6 +26,10 @@
             <artifactId>spring-boot-starter-logging</artifactId>
         </dependency>
         <!-- SpringBoot dependencies end -->
+        <dependency>
+            <groupId>org.jodd</groupId>
+            <artifactId>jodd-vtor</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
