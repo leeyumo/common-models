@@ -8,6 +8,7 @@ import lombok.Setter;
 
 @Data
 public final class JsonResult<T> {
+
     @Setter(AccessLevel.PRIVATE)
     private Integer code;
     @Setter(AccessLevel.PRIVATE)
@@ -31,10 +32,10 @@ public final class JsonResult<T> {
         return obj;
     }
 
-    public static JsonResult fail(BaseCodeMsg baseCodeMsg){
+    public static JsonResult fail(BaseEnum codeMsg){
         JsonResult object = new JsonResult();
-        object.setMsg(baseCodeMsg.getName());
-        object.setCode(baseCodeMsg.getCode());
+        object.setMsg(codeMsg.getName());
+        object.setCode(codeMsg.getCode());
         return object;
     }
 
